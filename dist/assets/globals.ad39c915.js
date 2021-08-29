@@ -1,0 +1,1 @@
+const a=a=>{if(navigator.clipboard)return navigator.clipboard.writeText(a)},t=window.location.host,o=a=>`${t}/${a}`,s="http://localhost:3000",r=s.replace("https","ws");export{s as S,r as a,a as c,t as d,o as g};

@@ -1,0 +1,1 @@
+const a=a=>{if(navigator.clipboard)return navigator.clipboard.writeText(a)},o=window.location.host,t=a=>`${o}/${a}`,i={}.SITE_URL,r=null==i?void 0:i.replace("https","ws");export{r as S,a as c,o as d,t as g};

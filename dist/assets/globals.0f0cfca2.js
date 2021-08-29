@@ -1,0 +1,1 @@
+const a=a=>{if(navigator.clipboard)return navigator.clipboard.writeText(a)},t=window.location.host,o=a=>`${t}/${a}`,p="https://p2p-nu.vercel.app",r=p.replace("https","ws");export{p as S,r as a,a as c,t as d,o as g};

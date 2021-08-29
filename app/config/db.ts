@@ -2,7 +2,8 @@ import mongo from "mongoose";
 
 export const connectDB = async () => {
   try {
-    await mongo.connect("mongodb://localhost:27017/p2p", {
+    const db_url = process.env.DATABASE_URL as string;
+    await mongo.connect(db_url, {
       useNewUrlParser: true,
     });
     console.log("DB CONNECTED");
