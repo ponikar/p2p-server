@@ -18,7 +18,7 @@ connectDB();
 app.use(bodyParser.json());
 app.use(cors());
 
-server.listen(8085, () => {
+server.listen(process.env.PORT || 3000, () => {
   console.log("The application is listening on port 8085!");
 });
 
